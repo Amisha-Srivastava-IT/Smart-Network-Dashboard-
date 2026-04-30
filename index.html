@@ -743,7 +743,14 @@ function initCharts() {
   chartUl  = new Chart(document.getElementById('chartUl'),  CHART_OPTS('#00e5a0','UL'));
   chartLat = new Chart(document.getElementById('chartLat'), CHART_OPTS('#f5c842','Latency'));
 }
-
+function updateCharts() {
+  chartDl.data.datasets[0].data  = [...dlHistory];
+  chartUl.data.datasets[0].data  = [...ulHistory];
+  chartLat.data.datasets[0].data = [...latHistory];
+  chartDl.update('none');
+  chartUl.update('none');
+  chartLat.update('none');
+}
 
 // ===== BOOT =====
 window.addEventListener('load', init);
