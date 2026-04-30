@@ -1,4 +1,4 @@
-#🚀 Smart Network Dashboard
+<img width="1600" height="738" alt="IMG-20260415-WA0012(2)" src="https://github.com/user-attachments/assets/10b98557-6e06-4e18-8c11-6a0721fd293d" />#🚀 Smart Network Dashboard
 
 A visually rich real-time network simulation dashboard that mimics a Network Operations Center (NOC). It dynamically visualizes multiple clients connected to a central server, showing latency, bandwidth, CPU load, and live data flow.
 
@@ -141,22 +141,6 @@ smart-network-dashboard/
 
 ---
 
-▶️ How to Run
-
-1. Clone the repository:
-
-
-
-git clone https://github.com/your-username/smart-network-dashboard.git
-
-2. Open the project folder:git clone https://github.com/your-username/smart-network-dashboard.git
-
-
-
-cd smart-network-dashboard
-
-3. Run the 
-
 🎮 How It Works
 
 •Each client is an object with network properties.
@@ -173,15 +157,6 @@ cd smart-network-dashboard
 
 
 •Charts update in real-time using historical buffers.
-
-
-
----
-
-📸 Preview
-
-> (Add screenshots or GIFs here for better GitHub visibility)
-
 
 
 
